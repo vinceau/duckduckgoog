@@ -1,3 +1,6 @@
 #!/usr/bin/env bash
+# change to the directory of the current file
+cd "$( dirname "${BASH_SOURCE[0]}" )"
 
-PORT=6006 npm run start
+# spawn process and disown child
+/bin/bash -c 'PATH=/usr/local/bin/:$PATH PORT=6006 nohup node app &' >/dev/null 2>&1 &
