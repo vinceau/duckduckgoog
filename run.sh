@@ -3,4 +3,4 @@
 cd "$( dirname "${BASH_SOURCE[0]}" )"
 
 # spawn process and disown child
-/bin/bash -c 'PATH=/usr/local/bin/:$PATH PORT=6006 nohup node app &' >/dev/null 2>&1 &
+/bin/bash -c 'PORT=6006 node app' >/dev/null 2>&1 &
