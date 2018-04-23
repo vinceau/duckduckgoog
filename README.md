@@ -37,8 +37,8 @@ By default [google.com](https://google.com) is used but if you would prefer to s
 
 Localisation | URL
 ------------ | ---
-Australia    | http://localhost:6006/?q=%s&google=www.google.com.au
-Japan        | http://localhost:6006/?q=%s&google=www.google.co.jp
-France       | http://localhost:6006/?q=%s&google=www.google.fr
+Australia    | http://localhost:6006/?q=%s&google=google.com.au
+Japan        | http://localhost:6006/?q=%s&google=google.co.jp
+France       | http://localhost:6006/?q=%s&google=google.fr
 
 
