@@ -9,9 +9,11 @@ Use DuckDuckGo for !bangs and Google (or another search engine) for everything e
 Local Setup
 -----------
 1. Clone the repository: `git clone -b local https://github.com/vinceau/duckduckgoog`
-2. Install dependencies using: `npm install --save`.
+2. Install dependencies using: `npm install`.
 3. Run `run.sh` to start DuckDuckGoog on [127.0.0.1:6006](http://127.0.0.1:6006).
-4. Set it up so that `run.sh` is executed automatically on login. You may want to set it as your default search engine, or the default fallback for [Alfred](https://www.alfredapp.com/).
+4. Set it up so that `run.sh` is executed automatically on login.
+
+You may also want to set `http://localhost:6006/?q=%s` as your default search engine or [Alfred](https://www.alfredapp.com/) fallback.
 
 
 Custom Default Search Engine
