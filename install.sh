@@ -17,7 +17,7 @@ if [ "$ostype" = 'Darwin' -a "$cputype" = 'x86_64' ]; then
 			<string>6006</string>
 		</dict>
 		<key>Label</key>
-		<string>Duckduckgoog</string>
+		<string>DuckDuckGoog</string>
 		<key>ProgramArguments</key>
 		<array>
 			<string>$(which node)</string>
