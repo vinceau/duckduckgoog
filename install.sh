@@ -11,6 +11,7 @@ if [ "$ostype" = 'Darwin' -a "$cputype" = 'x86_64' ]; then
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 	<dict>
+		<key>EnvironmentVariables</key>
 		<dict>
 			<key>PORT</key>
 			<string>6006</string>
