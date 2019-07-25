@@ -13,7 +13,7 @@
     <Attribution>DuckDuckGo and Google</Attribution>
     <SyndicationRight>open</SyndicationRight>
     <Query role="example" searchTerms="Apple !i"/>
-    <Image height="16" width="16" type="image/vnd.microsoft.icon">http://www.duckduckgoog.com/favicon.ico</Image>
-    <Url type="text/html" template="http://www.duckduckgoog.com/?q={searchTerms}"/>
-    <Url type="application/opensearchdescription+xml" rel="self" template="http://duckduckgoog.com/opensearch.xml" />
+    <Image height="16" width="16" type="image/vnd.microsoft.icon">https://duckduckgoog.herokuapp.com/favicon.ico</Image>
+    <Url type="text/html" template="https://duckduckgoog.herokuapp.com/?q={searchTerms}"/>
+    <Url type="application/opensearchdescription+xml" rel="self" template="https://duckduckgoog.herokuapp.com/opensearch.xml" />
 </OpenSearchDescription>
